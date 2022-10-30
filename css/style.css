@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/*--Меняет отсчёт ширины блока для более удобной вёрстки--*/
+*,
+*::before,
+*::after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*--Убирает линии обводки у некоторых браузеров--*/
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+/*--Делает теги блочными--*/
+header,
+nav,
+aside,
+footer {
+  display: block;
+}
+
+/*--Параметры, которые уравнивают поведение шрифтов и элементов для разных браузеров--*/
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  font-size: 16px;
+  line-height: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/*--Наследование семейства шрифта тегами формы(по умолчанию не наследуют)--*/
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+/*--Данные параметры убирают некоторые особенности в разных браузерах--*/
+input::-ms-clear {
+  display: none;
+}
+button {
+  background: transparent;
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+/*--Обнуление заголовков--*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+.flex {
+  display: flex;
+}
+
+
+.main {
+  background: linear-gradient(100deg, #0c4c78 -100%, #1e2f40 100%);
+}
+.container {
+  margin: 0 auto;
+  max-width: 1180px;
+}
+.info {
+  flex: 0 1 580px;
+  flex-direction: column;
+  padding: 170px 0;
+}
+.span-title {
+  margin-bottom: 10px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 127%;
+  color: #fbb731;
+  text-transform: uppercase;
+}
+.title {
+  margin-bottom: 39px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 800;
+  font-size: 120px;
+  line-height: 117%;
+  color: #faf9f9;
+  text-transform: uppercase;
+}
+.descr {
+  margin-bottom: 42px;
+  max-width: 565px;
+  font-size: 19px;
+  line-height: 140%;
+  color: #dedede;
+}
+.button-link {
+  align-self: flex-start;
+  padding: 20px 45px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 129%;
+  border-radius: 5px;
+  background: #fbb731;
+  color: #1e2f40;
+  text-transform: uppercase;
+}
+.visual {
+  position: relative;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+.bg {
+  width: 432px;
+  height: 100%;
+  background: linear-gradient(2.42deg, #f37335 -19.6%, #fbb731 100.79%, #fdc830 100.79%);
+}
+.visual-img {
+  position: absolute;
+  top: 0px;
+  right: -168px;
+  width: 829px;
+}
