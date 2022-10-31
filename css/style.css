@@ -163,3 +163,69 @@ body {
   right: -168px;
   width: 829px;
 }
+
+.cards {
+  padding: 170px 0;
+}
+.content {
+  margin: 0 -10px;
+}
+.card-1, 
+.card-2 {
+  display: flex;
+  flex: 1 1 580px;
+  padding: 0 10px;
+  min-height: 395px;
+}
+.card-info, 
+.card-info-2 {
+  flex-direction: column;
+  padding: 116px 50px;
+  width: 100%;
+  background: url(../img/banner-1.jpg) 50% / cover no-repeat;
+}
+.card-info-2 {
+  background: url(../img/banner-2.jpg) 50% / cover no-repeat;
+}
+.card-link {
+  align-self: flex-start;
+  margin-bottom: 3px;
+  padding: 5px 18.23px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 129%;
+  color: #fff;
+  background: #f37335;
+  border-radius: 14px;
+  text-transform: uppercase;
+}
+.card-title {
+  margin-bottom: 8px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 127%;
+  color: #fff;
+  text-transform: uppercase;
+}
+.card-text {
+  max-width: 390px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: 160%;
+  color: #faf9f9;
+}
+.card-2-text {
+  margin-bottom: 20px;
+  max-width: 297px;
+}
+
+.card-2-title {
+  margin-bottom: 10px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 127%;
+  color: #fff;
+}
