@@ -220,7 +220,6 @@ body {
   margin-bottom: 20px;
   max-width: 297px;
 }
-
 .card-2-title {
   margin-bottom: 10px;
   font-family: 'Nunito Sans', sans-serif;
@@ -228,4 +227,74 @@ body {
   font-size: 44px;
   line-height: 127%;
   color: #fff;
+}
+
+
+.footer {
+  background: #1e2f40;
+  padding: 111px 0 106px;
+}
+.footer-content {
+  justify-content: space-between;
+}
+
+.footer-icon {
+  width: 63px;
+  height: 56px;
+} 
+.main-links, 
+.main-info, 
+.footer-phone {
+  flex-direction: column;
+}
+.links-titlle {
+  margin-bottom: 12px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 190%;
+  color: #fff;
+  text-transform: uppercase;
+}
+.main-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+.item-link, 
+.info-span {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: 160%;
+  color: #dedede;
+}
+.info-item:not(:last-child) {
+  margin-bottom: 12px;
+}
+.info-span {
+  margin-bottom: 2px;
+}
+.info-subtitle {
+  margin-bottom: 2px;
+}
+.info-subtitle, 
+.info-text, 
+.info-address {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 160%;
+  color: #faf9f9;
+}
+.info-address {
+  font-style: normal;
+}
+.phone-item {
+  margin-bottom: 2px;
+}
+.link-phone {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 190%;
+  color: #fbb731;
+  text-transform: uppercase;
 }
